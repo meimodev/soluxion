@@ -20,6 +20,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/meimodev/soluxion.git",
+    "accountId": "70331e1e-0fea-4bfa-8533-1b745101e8da"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -73,7 +79,7 @@
       <option name="presentableId" value="Default" />
       <updated>1743739884755</updated>
       <workItem from="1743739886283" duration="5277000" />
-      <workItem from="1743750715098" duration="13031000" />
+      <workItem from="1743750715098" duration="13417000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
