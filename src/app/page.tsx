@@ -22,7 +22,7 @@ export default function Home() {
         "https://www.dropbox.com/scl/fi/l6omyfv1odlcldfrno82m/books.gif?rlkey=gvbwwfjiq5xebzbd9p28thvcd&st=39z7e4qj&dl=1"
     ];
 
-    const paymentLink = "https://www.mayar.id";
+    const paymentLink = "https://soluxion2025.myr.id/pl/jualan-auto-laris-di-marketplace-online";
 
     return (
         <div className="bg-white text-neutral-700">
