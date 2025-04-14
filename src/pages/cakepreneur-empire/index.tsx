@@ -52,6 +52,7 @@ export default function Page() {
             "src": "https://www.dropbox.com/scl/fi/avanpuk3kg1mlx5wat6fx/6.jpg?rlkey=jotiuz2qrv3zifglj7t6zeiwh&dl=1",
         },
 
+
         {
             "type": ElementTypeEnum.button,
             "src": paymentLink,
