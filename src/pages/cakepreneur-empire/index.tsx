@@ -75,14 +75,14 @@ export default function Page() {
         },
 
 
-
     ];
 
 
     return (
         <div className="bg-white text-pink-700">
 
-            <a href={paymentLink} target="_blank" className="py-3 px-6 fixed bottom-8 right-8 rounded-2xl font-bold bg-pink-600 text-rose-200 animate-bounce ease-in-out text-xl">
+            <a href={paymentLink} target="_blank"
+               className="py-3 px-6 fixed bottom-8 right-8 rounded-2xl font-bold bg-pink-600 text-rose-200 animate-bounce ease-in-out text-xl">
                 BELI
             </a>
 
@@ -101,7 +101,11 @@ export default function Page() {
                         }
 
                         if (e.type === ElementTypeEnum.button) {
-                            return <ButtonBuy colors={["bg-pink-500","bg-pink-600","bg-rose-500","bg-rose-600" ]} key={index} link={paymentLink}/>
+                            return <div key={index} className="w-full px-4 pt-4">
+                                <ButtonBuy className="w-full"
+                                           colors={["bg-pink-500", "bg-pink-600", "bg-rose-500", "bg-rose-600"]}
+                                           link={paymentLink}/>
+                            </div>
                         }
 
                         return <></>

@@ -89,7 +89,10 @@ export default function Page() {
                         }
 
                         if (e.type === ElementTypeEnum.button) {
-                            return <ButtonBuy key={index} link={paymentLink}/>
+                            return <div key={index} className="w-full px-4 pt-4">
+                                <ButtonBuy className="w-full"
+                                           link={paymentLink}/>
+                            </div>
                         }
 
                         return <></>

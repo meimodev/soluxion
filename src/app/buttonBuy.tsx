@@ -4,9 +4,10 @@ import React, {useState, useEffect} from 'react';
 interface ButtonBuyProps {
     link: string;
     colors?: string[];
+    className: string;
 }
 
-const ButtonBuy: React.FC<ButtonBuyProps> = ({link, colors}) => {
+const ButtonBuy: React.FC<ButtonBuyProps> = ({link, colors, className}) => {
     const [colorIndex, setColorIndex] = useState(0);
 
     const internalColors = colors ?? ['bg-blue-700', 'bg-green-700', 'bg-blue-900', "bg-green-900",];
@@ -25,7 +26,7 @@ const ButtonBuy: React.FC<ButtonBuyProps> = ({link, colors}) => {
 
     return (
         <button
-            className={`animate-bounce px-6 py-3 text-white font-bold rounded-md transition-colors duration-1000 ease-in-out ${internalColors[colorIndex]}`}
+            className={`animate-bounce px-6 py-3 text-white font-bold rounded-md transition-colors duration-1000 ease-in-out ${internalColors[colorIndex]} ${className}`}
             onClick={handleClick} // Handle click to open the link
         >
             BELI SEKARANG
