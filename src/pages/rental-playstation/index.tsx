@@ -24,8 +24,7 @@ Page.getLayout = function getLayout(page: ReactNode) {
 
 export default function Page() {
 
-    const paymentLink = "https://soluxion2025.myr.id/pl/cakepreneur-empire";
-
+    const paymentLink = "https://soluxion2025.myr.id/pl/dari-hobi-jadi-bisnis-roadmap-bisnis-rental-game-modern";
 
     const elements: ElementTypeInterface[] = [
         {
@@ -92,10 +91,10 @@ export default function Page() {
                         }
 
                         if (e.type === ElementTypeEnum.button) {
-                            return <div key={index} className="w-full px-4 pt-4">
+                            return <div key={index} className="w-full px-4 pt-8 pb-4">
                                 <ButtonBuy className="w-full rounded-full"
                                            colors={["bg-purple-500", "bg-purple-600", "bg-indigo-500", "bg-indigo-600"]}
-                                           link={paymentLink}>PESAN SEKARANG</ButtonBuy>
+                                           link={paymentLink}><p className="text-2xl">PESAN SEKARANG</p></ButtonBuy>
                             </div>
                         }
 
@@ -123,7 +122,7 @@ export default function Page() {
                         width={16}
                         height={16}
                     />
-                    @soluxion.id
+                    @mudajadikaya
                 </a>
 
                 <a
