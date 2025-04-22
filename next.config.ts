@@ -22,7 +22,22 @@ const nextConfig: NextConfig = {
                 source: '/cake',
                 destination: '/cakepreneur-empire',
                 permanent: true,
-            }
+            },
+            {
+                source: '/3',
+                destination: '/rental-playstation',
+                permanent: true,
+            },
+            {
+                source: '/rental-ps',
+                destination: '/rental-playstation',
+                permanent: true,
+            },
+            {
+                source: '/rental',
+                destination: '/rental-playstation',
+                permanent: true,
+            },
         ]
     },
 };

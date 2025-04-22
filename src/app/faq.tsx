@@ -16,7 +16,7 @@ const FAQ = () => {
     const faqs: FAQItem[] = [
         {
             question: "Bagaimana cara mendapatkan eBook keren ini?\n",
-            answer: "Cukup klik tombol Pesan Sekarang, ikuti langkah-langkah pembayaran yang diberikan, dan setelahnya kamu dapat langsung mengunduh file PDF eBook lengkap dengan bonusnya!"
+            answer: "Cukup klik tombol beli / pesan, ikuti langkah-langkah pembayaran yang diberikan, dan setelahnya kamu dapat langsung mengunduh file PDF eBook lengkap dengan bonusnya!"
         },
         {
             question: "Apakah eBook ini bisa dijual ulang?",

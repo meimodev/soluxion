@@ -5,9 +5,10 @@ interface ButtonBuyProps {
     link: string;
     colors?: string[];
     className: string;
+    children?: React.ReactNode;
 }
 
-const ButtonBuy: React.FC<ButtonBuyProps> = ({link, colors, className}) => {
+const ButtonBuy: React.FC<ButtonBuyProps> = ({link, colors, className,children}) => {
     const [colorIndex, setColorIndex] = useState(0);
 
     const internalColors = colors ?? ['bg-blue-700', 'bg-green-700', 'bg-blue-900', "bg-green-900",];
@@ -26,10 +27,10 @@ const ButtonBuy: React.FC<ButtonBuyProps> = ({link, colors, className}) => {
 
     return (
         <button
-            className={`animate-bounce px-6 py-3 text-white font-bold rounded-md transition-colors duration-1000 ease-in-out ${internalColors[colorIndex]} ${className}`}
+            className={`animate-bounce px-6 py-3 text-white font-bold transition-colors duration-1000 ease-in-out ${internalColors[colorIndex]} ${className}`}
             onClick={handleClick} // Handle click to open the link
         >
-            BELI SEKARANG
+            {children ?? <p>BELI SEKARANG</p>}
         </button>
     );
 };
