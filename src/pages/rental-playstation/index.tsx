@@ -5,13 +5,15 @@ import {Metadata} from "next";
 import Layout from "./layout";
 import {ReactNode} from "react";
 import {ElementTypeEnum, ElementTypeInterface} from "@/app/interface";
+import dynamic from "next/dynamic";
+import Script from "next/script";
 
 {/* eslint-disable @next/next/no-img-element */
 }
 
 export const metadata: Metadata = {
-    title: 'Jual Cake Jadi Duit',
-    description: 'Ebook panduan jualan cake untuk laku keras anti main stream',
+    title: 'Rental PS jaman now',
+    description: 'Panduan sakti rental PS pasti laris maniss',
 }
 
 Page.getLayout = function getLayout(page: ReactNode) {
@@ -19,8 +21,13 @@ Page.getLayout = function getLayout(page: ReactNode) {
         <Layout>
             {page}
         </Layout>
+
     )
 }
+
+
+const PixelTracker = dynamic(() => import("../../app/pixelTracker"), {ssr: false});
+
 
 export default function Page() {
 
@@ -68,8 +75,46 @@ export default function Page() {
     ];
 
 
+
+
+    const MetaPixelComponent = () => {
+        return <div>
+                {/* Meta Pixel Code */}
+                <Script id="fb-pixel"
+                    dangerouslySetInnerHTML={{
+                        __html: `
+              !function(f,b,e,v,n,t,s)
+              {if(f.fbq)return;n=f.fbq=function(){n.callMethod?                         
+              n.callMethod.apply(n,arguments):n.queue.push   
+              (arguments)}; if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!
+              0;n.version='2.0';n.queue=[];t=b.createElement(e);
+              t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];
+              s.parentNode.insertBefore(t,s)}(window, document,
+              'script',
+              'https://connect.facebook.net/en_US/fbevents.js');
+              fbq('init', '1370812530897979');
+              fbq('track', 'PageView');
+            `,
+                    }}
+                />
+                <noscript>
+                    <img alt=''
+                        height="1"
+                        width="1"
+                        style={{display: "none"}}
+                        src="https://www.facebook.com/tr?id=1370812530897979&ev=
+            PageView&noscript=1"/>
+                </noscript>
+                {/* End Meta Pixel Code */}
+
+            <PixelTracker/>
+        </div>
+    }
+
+
     return (
         <div className="bg-white text-purple-800">
+            <MetaPixelComponent/>
 
             <a href={paymentLink} target="_blank"
                className="py-3 px-6 fixed bottom-8 right-8 rounded-2xl font-bold bg-purple-600 text-white animate-bounce ease-in-out text-xl">
