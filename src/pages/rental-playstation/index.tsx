@@ -57,7 +57,7 @@ export default function Page() {
         {
 
             "type": ElementTypeEnum.image,
-            "src": "https://ik.imagekit.io/geb6bfhmhx/rental-lp/4.jpg?updatedAt=1745905201308",
+            "src": "https://ik.imagekit.io/geb6bfhmhx/rental-lp/5.jpg?updatedAt=1745905201465",
         },
         {
 
