@@ -35,52 +35,61 @@ export default function Page() {
 
     const elements: ElementTypeInterface[] = [
         {
+
             "type": ElementTypeEnum.image,
-            "src": "https://www.dropbox.com/scl/fi/dwh117mcnak0zrfin0c9q/1.jpg?rlkey=8y5no4lax03e5tk1fd4wddtju&dl=1",
+            "src": "https://ik.imagekit.io/geb6bfhmhx/rental-lp/1.jpg?updatedAt=1745905201430",
         },
         {
+
             "type": ElementTypeEnum.image,
-            "src": "https://www.dropbox.com/scl/fi/so1inxkw6gd7w25wr19f1/2.jpg?rlkey=al06phv6s5qxs1dad2qm2cat0&dl=1",
+            "src": "https://ik.imagekit.io/geb6bfhmhx/rental-lp/2.jpg?updatedAt=1745905201537",
         },
         {
+
             "type": ElementTypeEnum.image,
-            "src": "https://www.dropbox.com/scl/fi/howp8pwk6llan85hd4gde/3.jpg?rlkey=lsibdwi87dedcz1wmaf817wh7&dl=1",
+            "src": "https://ik.imagekit.io/geb6bfhmhx/rental-lp/3.jpg?updatedAt=1745905201394",
         },
         {
+
             "type": ElementTypeEnum.image,
-            "src": "https://www.dropbox.com/scl/fi/tucnodsxp920wtygfdwu7/4.jpg?rlkey=dio4tkpyv4vg5w1kygem69d5e&dl=1",
+            "src": "https://ik.imagekit.io/geb6bfhmhx/rental-lp/4.jpg?updatedAt=1745905201308",
         },
         {
+
             "type": ElementTypeEnum.image,
-            "src": "https://www.dropbox.com/scl/fi/fyoqg5esodxppe6xy8oqq/5.jpg?rlkey=akpiyr6jp1pscr13zirm7u1ng&dl=1",
+            "src": "https://ik.imagekit.io/geb6bfhmhx/rental-lp/4.jpg?updatedAt=1745905201308",
         },
         {
+
             "type": ElementTypeEnum.image,
-            "src": "https://www.dropbox.com/scl/fi/jhx78ezvbwhkcf1crtf5o/6.jpg?rlkey=y08nbbwlenkyanqc7sgv1w5f8&dl=1",
+            "src": "https://ik.imagekit.io/geb6bfhmhx/rental-lp/6.jpg?updatedAt=1745905201419",
         },
         {
             "type": ElementTypeEnum.button,
             "src": paymentLink,
         },
         {
+
             "type": ElementTypeEnum.image,
-            "src": "https://www.dropbox.com/scl/fi/9uur57xgin9myrz3e15ju/7.jpg?rlkey=uk2me9jhjzsvkhrgw1oav16pf&dl=1",
+            "src": "https://ik.imagekit.io/geb6bfhmhx/rental-lp/7.jpg?updatedAt=1745905201474",
         },
         {
             "type": ElementTypeEnum.button,
             "src": paymentLink,
         },
 
+        {
+            "type": ElementTypeEnum.image,
+            "src": "https://ik.imagekit.io/geb6bfhmhx/rental-lp/8.jpg?updatedAt=1745905201119",
+        },
 
     ];
 
 
-
-
     const MetaPixelComponent = () => {
         return <div>
-                {/* Meta Pixel Code */}
-                <Script id="fb-pixel"
+            {/* Meta Pixel Code */}
+            <Script id="fb-pixel"
                     dangerouslySetInnerHTML={{
                         __html: `
               !function(f,b,e,v,n,t,s)
@@ -96,16 +105,16 @@ export default function Page() {
               fbq('track', 'PageView');
             `,
                     }}
-                />
-                <noscript>
-                    <img alt=''
-                        height="1"
-                        width="1"
-                        style={{display: "none"}}
-                        src="https://www.facebook.com/tr?id=1370812530897979&ev=
+            />
+            <noscript>
+                <img alt=''
+                     height="1"
+                     width="1"
+                     style={{display: "none"}}
+                     src="https://www.facebook.com/tr?id=1370812530897979&ev=
             PageView&noscript=1"/>
-                </noscript>
-                {/* End Meta Pixel Code */}
+            </noscript>
+            {/* End Meta Pixel Code */}
 
             <PixelTracker/>
         </div>
