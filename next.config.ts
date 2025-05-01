@@ -48,6 +48,16 @@ const nextConfig: NextConfig = {
                 destination: '/barbershop',
                 permanent: true,
             },
+            {
+                source: '/5',
+                destination: '/billiard-empire',
+                permanent: true,
+            },
+            {
+                source: '/billiard',
+                destination: '/billiard-empire',
+                permanent: true,
+            },
         ]
     },
 };
