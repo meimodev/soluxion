@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71956aec-b154-41ed-ae8e-11f2b169ca5a" name="Changes" comment="fix rental images that dont showed up on safari">
+    <list default="true" id="71956aec-b154-41ed-ae8e-11f2b169ca5a" name="Changes" comment="fix rental images and cake images">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/cakepreneur-empire/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/cakepreneur-empire/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/rental-playstation/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/rental-playstation/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -121,7 +120,8 @@
       <workItem from="1745329110212" duration="165000" />
       <workItem from="1745454813369" duration="9773000" />
       <workItem from="1745903537397" duration="39000" />
-      <workItem from="1745905388546" duration="1742000" />
+      <workItem from="1745905388546" duration="2402000" />
+      <workItem from="1746077892111" duration="741000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -195,7 +195,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745905749188</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="fix rental images and cake images">
+      <option name="closed" value="true" />
+      <created>1745907175824</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1745907175825</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,6 +217,7 @@
     <MESSAGE value="added rental ps page" />
     <MESSAGE value="add meta pixel config to the rental-ps page" />
     <MESSAGE value="fix rental images that dont showed up on safari" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix rental images that dont showed up on safari" />
+    <MESSAGE value="fix rental images and cake images" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix rental images and cake images" />
   </component>
 </project>

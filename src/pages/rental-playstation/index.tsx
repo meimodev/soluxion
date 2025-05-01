@@ -37,32 +37,33 @@ export default function Page() {
         {
 
             "type": ElementTypeEnum.image,
-            "src": "https://ik.imagekit.io/geb6bfhmhx/rental-lp/1.jpg?updatedAt=1745905201430",
+            "src": "https://ik.imagekit.io/geb6bfhmhx/rental-lp/1.jpg",
         },
         {
 
             "type": ElementTypeEnum.image,
-            "src": "https://ik.imagekit.io/geb6bfhmhx/rental-lp/2.jpg?updatedAt=1745905201537",
+            "src": "https://ik.imagekit.io/geb6bfhmhx/rental-lp/2.jpg",
         },
         {
 
             "type": ElementTypeEnum.image,
-            "src": "https://ik.imagekit.io/geb6bfhmhx/rental-lp/3.jpg?updatedAt=1745905201394",
+            "src": "https://ik.imagekit.io/geb6bfhmhx/rental-lp/3.jpg",
         },
         {
 
             "type": ElementTypeEnum.image,
-            "src": "https://ik.imagekit.io/geb6bfhmhx/rental-lp/4.jpg?updatedAt=1745905201308",
+            "src": "https://ik.imagekit.io/geb6bfhmhx/rental-lp/4.jpg",
         },
         {
 
             "type": ElementTypeEnum.image,
-            "src": "https://ik.imagekit.io/geb6bfhmhx/rental-lp/5.jpg?updatedAt=1745905201465",
+            "src": "https://ik.imagekit.io/geb6bfhmhx/rental-lp/5.jpg",
         },
         {
 
             "type": ElementTypeEnum.image,
-            "src": "https://ik.imagekit.io/geb6bfhmhx/rental-lp/6.jpg?updatedAt=1745905201419",
+            "src": "https://ik.imagekit.io/geb6bfhmhx/rental-lp/6.jpg",
+
         },
         {
             "type": ElementTypeEnum.button,
@@ -71,18 +72,22 @@ export default function Page() {
         {
 
             "type": ElementTypeEnum.image,
-            "src": "https://ik.imagekit.io/geb6bfhmhx/rental-lp/7.jpg?updatedAt=1745905201474",
+            "src": "https://ik.imagekit.io/geb6bfhmhx/rental-lp/7.jpg",
+
+        },
+        {
+            "type": ElementTypeEnum.image,
+            "src": "https://ik.imagekit.io/geb6bfhmhx/rental-lp/8.jpg",
+        },
+
+        {
+            "type": ElementTypeEnum.image,
+            "src": "https://ik.imagekit.io/geb6bfhmhx/rental-lp/9.jpg",
         },
         {
             "type": ElementTypeEnum.button,
             "src": paymentLink,
         },
-
-        {
-            "type": ElementTypeEnum.image,
-            "src": "https://ik.imagekit.io/geb6bfhmhx/rental-lp/8.jpg?updatedAt=1745905201119",
-        },
-
     ];
 
 
