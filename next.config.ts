@@ -38,6 +38,16 @@ const nextConfig: NextConfig = {
                 destination: '/rental-playstation',
                 permanent: true,
             },
+            {
+                source: '/4',
+                destination: '/barbershop',
+                permanent: true,
+            },
+            {
+                source: '/barber',
+                destination: '/barbershop',
+                permanent: true,
+            },
         ]
     },
 };

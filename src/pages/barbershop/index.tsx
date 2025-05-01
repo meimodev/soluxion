@@ -12,8 +12,8 @@ import Script from "next/script";
 }
 
 export const metadata: Metadata = {
-    title: 'Rental PS jaman now',
-    description: 'Panduan sakti rental PS pasti laris maniss',
+    title: 'ACTION BOOK BISNIS BARBERSHOP',
+    description: 'Penampilan ganteng dompet lebih ganteng',
 }
 
 Page.getLayout = function getLayout(page: ReactNode) {
@@ -21,7 +21,6 @@ Page.getLayout = function getLayout(page: ReactNode) {
         <Layout>
             {page}
         </Layout>
-
     )
 }
 
@@ -31,40 +30,39 @@ const PixelTracker = dynamic(() => import("../../app/pixelTracker"), {ssr: false
 
 export default function Page() {
 
-    const paymentLink = "https://soluxion2025.myr.id/pl/dari-hobi-jadi-bisnis-roadmap-bisnis-rental-game-modern";
-    const pixelId = "1370812530897979";
+    const paymentLink = "https://soluxion2025.myr.id/pl/actionbook-bisnis-barbershop";
+    const pixelId = "";
 
     const elements: ElementTypeInterface[] = [
         {
 
             "type": ElementTypeEnum.image,
-            "src": "https://ik.imagekit.io/geb6bfhmhx/rental-lp/1.jpg",
+            "src": "https://ik.imagekit.io/geb6bfhmhx/barber-lp/1.jpg?updatedAt=1746079216053",
         },
         {
 
             "type": ElementTypeEnum.image,
-            "src": "https://ik.imagekit.io/geb6bfhmhx/rental-lp/2.jpg",
+            "src": "https://ik.imagekit.io/geb6bfhmhx/barber-lp/2.jpg?updatedAt=1746079215956",
         },
         {
 
             "type": ElementTypeEnum.image,
-            "src": "https://ik.imagekit.io/geb6bfhmhx/rental-lp/3.jpg",
+            "src": "https://ik.imagekit.io/geb6bfhmhx/barber-lp/3.jpg?updatedAt=1746079216011",
         },
         {
 
             "type": ElementTypeEnum.image,
-            "src": "https://ik.imagekit.io/geb6bfhmhx/rental-lp/4.jpg",
+            "src": "https://ik.imagekit.io/geb6bfhmhx/barber-lp/4.jpg?updatedAt=1746079216062",
         },
         {
 
             "type": ElementTypeEnum.image,
-            "src": "https://ik.imagekit.io/geb6bfhmhx/rental-lp/5.jpg",
+            "src": "https://ik.imagekit.io/geb6bfhmhx/barber-lp/5.jpg?updatedAt=1746079216086",
         },
         {
 
             "type": ElementTypeEnum.image,
-            "src": "https://ik.imagekit.io/geb6bfhmhx/rental-lp/6.jpg",
-
+            "src": "https://ik.imagekit.io/geb6bfhmhx/barber-lp/6.jpg?updatedAt=1746079216015",
         },
         {
             "type": ElementTypeEnum.button,
@@ -73,17 +71,11 @@ export default function Page() {
         {
 
             "type": ElementTypeEnum.image,
-            "src": "https://ik.imagekit.io/geb6bfhmhx/rental-lp/7.jpg",
-
+            "src": "https://ik.imagekit.io/geb6bfhmhx/barber-lp/7.jpg?updatedAt=1746079214628",
         },
         {
             "type": ElementTypeEnum.image,
-            "src": "https://ik.imagekit.io/geb6bfhmhx/rental-lp/8.jpg",
-        },
-
-        {
-            "type": ElementTypeEnum.image,
-            "src": "https://ik.imagekit.io/geb6bfhmhx/rental-lp/9.jpg",
+            "src": " https://ik.imagekit.io/geb6bfhmhx/barber-lp/8.jpg?updatedAt=1746079216097",
         },
         {
             "type": ElementTypeEnum.button,
@@ -127,11 +119,11 @@ export default function Page() {
 
 
     return (
-        <div className="bg-white text-purple-800">
+        <div className="bg-white text-indigo-800">
             <MetaPixelComponent/>
 
             <a href={paymentLink} target="_blank"
-               className="py-3 px-6 fixed bottom-8 right-8 rounded-2xl font-bold bg-purple-600 text-white animate-bounce ease-in-out text-xl">
+               className="py-3 px-6 fixed bottom-8 right-8 rounded-2xl font-bold bg-indigo-600 text-white animate-bounce ease-in-out text-xl">
                 BELI
             </a>
 
@@ -152,7 +144,7 @@ export default function Page() {
                         if (e.type === ElementTypeEnum.button) {
                             return <div key={index} className="w-full px-4 pt-8 pb-4">
                                 <ButtonBuy className="w-full rounded-full"
-                                           colors={["bg-purple-500", "bg-purple-600", "bg-indigo-500", "bg-indigo-600"]}
+                                           colors={["bg-blue-500", "bg-blue-600", "bg-indigo-500", "bg-indigo-600"]}
                                            link={paymentLink}><p className="text-2xl">PESAN SEKARANG</p></ButtonBuy>
                             </div>
                         }
@@ -167,7 +159,7 @@ export default function Page() {
 
             </div>
             <footer
-                className="bg-purple-200 text-gray-700 w-full row-start-3 flex gap-[24px] flex-wrap items-center justify-center py-8">
+                className="bg-indigo-200 text-gray-700 w-full row-start-3 flex gap-[24px] flex-wrap items-center justify-center py-8">
                 <a
                     className="flex items-center gap-2 hover:underline hover:underline-offset-4"
                     href="https://www.instagram.com/soluxion.id/?hl=en"

@@ -1,9 +1,13 @@
 import {useEffect} from "react";
 import ReactPixel from "react-facebook-pixel";
 
-const PixelTracker = () => {
+interface PixelTrackerProps {
+    pixelId?: string;
+}
+
+const PixelTracker: React.FC<PixelTrackerProps> = ({pixelId}) => {
     useEffect(() => {
-        ReactPixel.init("1370812530897979");
+        ReactPixel.init(pixelId ?? "");
         ReactPixel.pageView();
     }, []);
     return null;
