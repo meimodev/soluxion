@@ -32,6 +32,15 @@ const nextConfig: NextConfig = {
                 source: '/rental-ps',
                 destination: '/rental-playstation',
                 permanent: true,
+            }, {
+                source: '/rental',
+                destination: '/rental-playstation',
+                permanent: true,
+            },
+            {
+                source: '/ps',
+                destination: '/rental-playstation',
+                permanent: true,
             },
             {
                 source: '/rental',
