@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react';
+import React from 'react';
 
 interface ButtonBuyProps {
     link: string;
@@ -7,18 +7,18 @@ interface ButtonBuyProps {
     children?: React.ReactNode;
 }
 
-const ButtonBuy: React.FC<ButtonBuyProps> = ({link, colors, className, children}) => {
-    const [colorIndex, setColorIndex] = useState(0);
+const ButtonBuy: React.FC<ButtonBuyProps> = ({link, className}) => {
+    // const [colorIndex, setColorIndex] = useState(0);
 
-    const internalColors = colors ?? ['bg-blue-700', 'bg-green-700', 'bg-blue-900', "bg-green-900",];
-
-    useEffect(() => {
-        const interval = setInterval(() => {
-            setColorIndex((prevIndex) => (prevIndex + 1) % internalColors.length);
-        }, 1000); // Change color every 1 second
-
-        return () => clearInterval(interval); // Clean up the interval when the component unmounts
-    }, []);
+    // const internalColors = colors ?? ['bg-blue-700', 'bg-green-700', 'bg-blue-900', "bg-green-900",];
+    //
+    // useEffect(() => {
+    //     const interval = setInterval(() => {
+    //         setColorIndex((prevIndex) => (prevIndex + 1) % internalColors.length);
+    //     }, 1000); // Change color every 1 second
+    //
+    //     return () => clearInterval(interval); // Clean up the interval when the component unmounts
+    // }, []);
 
     const handleClick = () => {
         window.open(link, '_blank'); // Open the provided link in a new tab
