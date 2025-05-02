@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71956aec-b154-41ed-ae8e-11f2b169ca5a" name="Changes" comment="update route">
-      <change afterPath="$PROJECT_DIR$/public/click.png" afterDir="false" />
+    <list default="true" id="71956aec-b154-41ed-ae8e-11f2b169ca5a" name="Changes" comment="update button to use image">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/buttonBuy.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/buttonBuy.tsx" afterDir="false" />
     </list>
@@ -126,7 +125,7 @@
       <workItem from="1745903537397" duration="39000" />
       <workItem from="1745905388546" duration="2402000" />
       <workItem from="1746077892111" duration="8800000" />
-      <workItem from="1746197756921" duration="1448000" />
+      <workItem from="1746197756921" duration="1641000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -240,7 +239,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746083718293</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="update route">
+      <option name="closed" value="true" />
+      <created>1746199237913</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1746199237913</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -259,6 +266,7 @@
     <MESSAGE value="add barbershop page," />
     <MESSAGE value="add billiard empire page" />
     <MESSAGE value="update route" />
-    <option name="LAST_COMMIT_MESSAGE" value="update route" />
+    <MESSAGE value="update button to use image" />
+    <option name="LAST_COMMIT_MESSAGE" value="update button to use image" />
   </component>
 </project>

@@ -32,9 +32,9 @@ const ButtonBuy: React.FC<ButtonBuyProps> = ({link, colors, className, children}
         //     {children ?? <p>BELI SEKARANG</p>}
         // </button>
         <div>
-
+            {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-                className=" px-6 py-3 text-white font-bold transition-colors duration-3000 ease-in-out cursor-pointer"
+                className={`text-white font-bold transition  duration-400 ease-in-out cursor-pointer hover:scale-125 ${className}`}
                 aria-hidden
                 src="/click.png"
                 alt="Click to order"
