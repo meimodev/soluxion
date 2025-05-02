@@ -1,4 +1,3 @@
-"use client"
 import React, {useState, useEffect} from 'react';
 
 interface ButtonBuyProps {
@@ -8,7 +7,7 @@ interface ButtonBuyProps {
     children?: React.ReactNode;
 }
 
-const ButtonBuy: React.FC<ButtonBuyProps> = ({link, colors, className,children}) => {
+const ButtonBuy: React.FC<ButtonBuyProps> = ({link, colors, className, children}) => {
     const [colorIndex, setColorIndex] = useState(0);
 
     const internalColors = colors ?? ['bg-blue-700', 'bg-green-700', 'bg-blue-900', "bg-green-900",];
@@ -26,12 +25,23 @@ const ButtonBuy: React.FC<ButtonBuyProps> = ({link, colors, className,children})
     };
 
     return (
-        <button
-            className={`animate-bounce px-6 py-3 text-white font-bold transition-colors duration-1000 ease-in-out ${internalColors[colorIndex]} ${className}`}
-            onClick={handleClick} // Handle click to open the link
-        >
-            {children ?? <p>BELI SEKARANG</p>}
-        </button>
+        // <button
+        //     className={`animate-bounce px-6 py-3 text-white font-bold transition-colors duration-1000 ease-in-out ${internalColors[colorIndex]} ${className}`}
+        //     onClick={handleClick} // Handle click to open the link
+        // >
+        //     {children ?? <p>BELI SEKARANG</p>}
+        // </button>
+        <div>
+
+            <img
+                className=" px-6 py-3 text-white font-bold transition-colors duration-3000 ease-in-out cursor-pointer"
+                aria-hidden
+                src="/click.png"
+                alt="Click to order"
+                onClick={handleClick}
+            />
+        </div>
+
     );
 };
 
