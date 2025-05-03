@@ -24,14 +24,12 @@ Page.getLayout = function getLayout(page: ReactNode) {
     )
 }
 
-
 const PixelTracker = dynamic(() => import("../../app/pixelTracker"), {ssr: false});
-
 
 export default function Page() {
 
     const paymentLink = "https://soluxion2025.myr.id/pl/actionbook-bisnis-barbershop";
-    const pixelId = "";
+    const pixelId = "1370812530897979";
 
     const elements: ElementTypeInterface[] = [
         {

@@ -5,6 +5,8 @@ import {Metadata} from "next";
 import Layout from "./layout";
 import {ReactNode} from "react";
 import {ElementTypeEnum, ElementTypeInterface} from "@/app/interface";
+import Script from "next/script";
+import dynamic from "next/dynamic";
 
 {/* eslint-disable @next/next/no-img-element */
 }
@@ -22,9 +24,12 @@ Page.getLayout = function getLayout(page: ReactNode) {
     )
 }
 
+const PixelTracker = dynamic(() => import("../../app/pixelTracker"), {ssr: false});
+
 export default function Page() {
 
     const paymentLink = "https://soluxion2025.myr.id/pl/jualan-auto-laris-di-marketplace-online";
+    const pixelId = "1370812530897979";
 
     const elements: ElementTypeInterface[] = [
         {
@@ -70,10 +75,42 @@ export default function Page() {
 
     ];
 
+    const MetaPixelComponent = () => {
+        return <div>
+            {/* Meta Pixel Code */}
+            <Script id="fb-pixel"
+                    dangerouslySetInnerHTML={{
+                        __html: `
+              !function(f,b,e,v,n,t,s)
+              {if(f.fbq)return;n=f.fbq=function(){n.callMethod?                         
+              n.callMethod.apply(n,arguments):n.queue.push   
+              (arguments)}; if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!
+              0;n.version='2.0';n.queue=[];t=b.createElement(e);
+              t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];
+              s.parentNode.insertBefore(t,s)}(window, document,
+              'script',
+              'https://connect.facebook.net/en_US/fbevents.js');
+              fbq('init', '${pixelId}');
+              fbq('track', 'PageView');
+            `,
+                    }}
+            />
+            <noscript>
+                <img alt=''
+                     height="1"
+                     width="1"
+                     style={{display: "none"}}
+                     src={`https://www.facebook.com/tr?id=${pixelId}&ev=PageView&noscript=1`}/>
+            </noscript>
+            {/* End Meta Pixel Code */}
+
+            <PixelTracker pixelId={pixelId}/>
+        </div>
+    }
 
     return (
         <div className="bg-white text-neutral-700">
-
+            <MetaPixelComponent/>
             <div
                 className="max-w-2xl mx-auto   items-center justify-items-center min-h-screen ">
                 <main className="flex flex-col row-start-2 items-center pb-8">
