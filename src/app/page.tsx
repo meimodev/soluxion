@@ -17,7 +17,7 @@ export default function Home() {
     return (
         <div className="h-screen flex flex-col items-center justify-center">
             <div className="font-bold text-4xl mb-4">
-                {currentLocation.hostname}
+                {currentLocation.hostname.replace("www.", "")}
             </div>
             <div>
                 Solusi membantu dari hati.
