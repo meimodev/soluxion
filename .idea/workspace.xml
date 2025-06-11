@@ -5,18 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71956aec-b154-41ed-ae8e-11f2b169ca5a" name="Changes" comment="update button to use image">
-      <change afterPath="$PROJECT_DIR$/public/click.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/florist-empire/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/florist-empire/layout.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/buttonBuy.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/buttonBuy.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/barbershop/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/barbershop/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/barbershop/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/barbershop/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/billiard-empire/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/billiard-empire/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/billiard-empire/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/billiard-empire/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/cakepreneur-empire/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/cakepreneur-empire/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/cakepreneur-empire/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/cakepreneur-empire/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/digital-marketing-solution/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/digital-marketing-solution/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/digital-marketing-solution/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/digital-marketing-solution/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/rental-playstation/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/rental-playstation/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +58,7 @@
     "git-widget-placeholder": "main",
     "js.debugger.nextJs.config.created.client": "true",
     "js.debugger.nextJs.config.created.server": "true",
-    "last_opened_file_path": "/Users/edotanod/WebstormProjects/soluxion/public",
+    "last_opened_file_path": "/Users/edotanod/WebstormProjects/soluxion/src/pages",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -78,8 +71,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/src/pages" />
+      <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/src/pages/rental-playstation" />
       <recent name="$PROJECT_DIR$/src/app" />
       <recent name="$PROJECT_DIR$/src/pages/cakepreneur-empire" />
@@ -110,7 +103,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-f27c65a3e318-JavaScript-WS-251.23774.424" />
+        <option value="bundled-js-predefined-d6986cc7102b-b26f3e71634d-JavaScript-WS-251.26094.131" />
       </set>
     </attachedChunks>
   </component>

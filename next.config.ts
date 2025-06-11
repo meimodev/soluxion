@@ -67,6 +67,16 @@ const nextConfig: NextConfig = {
                 destination: '/billiard-empire',
                 permanent: true,
             },
+            {
+                source: '/6',
+                destination: '/florist-empire',
+                permanent: true,
+            },
+            {
+                source: '/florist',
+                destination: '/florist-empire',
+                permanent: true,
+            },
         ]
     },
 };
